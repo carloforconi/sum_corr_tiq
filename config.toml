@@ -1,0 +1,11 @@
+folder_path = "/home/gpuuser/personall_directories/cforconi/data/2024.05.16/home/gpuuser/sshfs_mounts/lustre/ap/litv-exp/2024-05-12_E018_TwoPhotonDecay_ssanjari/analyzers/RSA01_P1/"
+saving_path = "/home/gpuuser/personall_directories/cforconi/data/2024.05.16/results/"
+start_datetime = "2024.05.16.00.30"
+end_datetime = "2024.05.16.00.40"
+lframes = 65536
+reference_freq = 408386000
+peak_height_cut = 51
+t_cut_start = 0.4
+t_cut_stop = 1.6
+left = 160
+right = 80
