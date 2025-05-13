@@ -4,6 +4,14 @@ Sums data from multiple .tiq files, applies frequency drift correction and injec
 ## Requirements
 Requires numpy and [IQTools](https://github.com/xaratustrah/iqtools)
 
+## Run
+After setting properly the config.toml file, run the script:
+<pre lang="markdown"> python sum_corr_tiq.py </pre>
+
+The output name is generated in this format:
+<pre lang="markdown"> summed_(RSA_name)-(start_date)_(start_time)_(end_time)_cut=(cut).npz </pre>
+
+
 ## Usage
 Set the desired settings in the config.toml file:
 <pre lang="markdown">  folder_path = path to the data files
@@ -12,8 +20,8 @@ Set the desired settings in the config.toml file:
   end_datetime = date and time to end the sum.
   lframes = frame length (number of frequency bins).
   reference_freq = reference frequency
-  peak_height_cut = 50.0 
-  t_cut_start = 0.5 
-  t_cut_stop = 2.0 
-  left = 50 
-  right = 50 ```
+  peak_height_cut = minimum intensity level for applying the cut  
+  t_cut_start = time after injection effect on frequency
+  t_cut_stop = final time
+  left = frequency bin at the left of the main peak to isolate it (default: 50)
+  right = frequency bin at the right of the main peak to isolate it (default: 50)</pre>
