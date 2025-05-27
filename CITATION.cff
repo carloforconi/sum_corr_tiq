@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: sum_corr_tiq
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file
+type: software
+authors:
+  - given-names: Carlo
+    family-names: Forconi
+    email: c.forconi@gsi.de
+    affiliation: GSI
+repository-code: 'https://github.com/carloforconi/sum_corr_tiq/tree/main'
+abstract: >-
+  Code that sums data from multiple .tiq files, applies
+  frequency drift correction and injection correction, and
+  saves the results in .npz format with an automatically
+  generated filename based on user settings.
+keywords:
+  - python
+  - data analysis
+  - nuclear physics
+license: GPL-3.0
+date-released: '2025-05-13'
