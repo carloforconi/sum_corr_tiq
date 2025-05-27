@@ -32,9 +32,9 @@ Run the script:
 ```
 python sum_corr_tiq.py 
 ```
-
-The output file name is generated in this format: `summed_(RSA_name)-(start_date)_(start_time)_(end_time)_cut=(cut).npz`   
-For example: `summed_RSA01-2024.05.16_00:30_00:40_cut=51.npz`   
+### Results
+The output file name is generated in this format: `summed_(RSA_name)-(start_date)_(start_time)_(end_time)_cut=(cut).npz` (for example: `summed_RSA01-2024.05.16_00:30_00:40_cut=51.npz`).   
+The `npz` file contains data of the frequency, time, and intensities (raw summed intensities, summed intensities with frequency drift correction, summed intensities with frequency drift and injection correction).
 
 ## License 
 Please see the file [LICENSE](https://github.com/carloforconi/sum_corr_tiq/blob/main/LICENSE) for further information about how the content is licensed.
